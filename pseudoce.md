@@ -29,10 +29,7 @@ BEGIN
     SELAIN ITU
         kategori = "Tidak Diketahui/Tidak Normal
         
-    hasil = "Berat Badan: " + bb + "kg" + BARIS_BARU + 
-            "Tinggi Badan: " + TB + "cm" + BARIS_BARU + 
-            "Nilai BMI: " + BMI + BARIS_BARU + 
-            "Kategori: " + kategori
+    hasil = "Berat Badan: " + bb + "kg" + "Tinggi Badan: " + TB + "cm" + "Nilai BMI: " + BMI + "Kategori: " + kategori
             
     WRITE("Hasil Perhitungan BMI Anda:", hasil)
 
