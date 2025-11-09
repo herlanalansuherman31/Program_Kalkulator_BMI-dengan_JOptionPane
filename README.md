@@ -57,7 +57,7 @@ public class KalkulatorBMI {
 
 ### 💡 Input
 
-![Input Dialog](?Screenshot 2025-11-09 122857.png)
+![Input Dialog](?Screenshot-2025-11-09 122857.png)
 
 ### 📊 Output
 
