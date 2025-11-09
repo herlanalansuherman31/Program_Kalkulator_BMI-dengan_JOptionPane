@@ -57,11 +57,12 @@ public class KalkulatorBMI {
 
 ### 💡 Input
 
-![Input Dialog](?Screenshot-2025-11-09 122857.png)
+![Input Dialog]()
 
 ### 📊 Output
 
-![Output Dialog](Screenshot 2025-11-09 122857.png)
+(<img width="1920" height="1080" alt="Screenshot 2025-11-09 123002" src="https://github.com/user-attachments/assets/f19353c7-14fb-4ce3-9616-e5cd918bad71" />
+)
 
 ---
 
