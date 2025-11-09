@@ -19,6 +19,8 @@ Langkah program:
 
 ## 💻 Cuplikan Kode
 ```java
+package com.example;
+
 import javax.swing.JOptionPane;
 //contoh dasar kalkulator bmi
 public class KalkulatorBMI {
@@ -26,10 +28,10 @@ public class KalkulatorBMI {
 	public static void main(String[] args) {
 		String inputBB = JOptionPane.showInputDialog("masukan berat badan(kg):");
 		String inputTB = JOptionPane.showInputDialog("masukan tinggi badan(cm):");
-		double bb = Double.parseDouble(inputBB);
-		double TB = Double.parseDouble(inputTB);
+		double bb = Double.parseDouble(inputBB); //mengkonversi string ke double
+		double TB = Double.parseDouble(inputTB); //mengkonversi string ke double
 		double konversi = TB / 100; //mengkonversi tinggi badan cm ke m
-		double BMI = bb / (konversi * konversi);
+		double BMI = bb / (konversi * konversi); //menggunakan ekspresi aritmatika
 		//menggunakan if else agar hasil bmi sesuai degan kriteria
 		String kategori; if (BMI < 18.5 ) { 
 			kategori = "kurus";
@@ -37,7 +39,7 @@ public class KalkulatorBMI {
 			kategori = "normal";
 		}else if (BMI < 29.9) {
 			kategori = "gemuk";
-		}else if (BMI > 30.0){
+		}else if (BMI >= 29.9){
 			kategori = "obesitas";
 		}else {
 			kategori = "tidak normal"; //jika hasil <18,5 
@@ -49,6 +51,7 @@ public class KalkulatorBMI {
 
 }
 
+
 ```
 
 ---
@@ -57,13 +60,12 @@ public class KalkulatorBMI {
 
 ###  🔢 input
 
-<img width="1920" height="1080" alt="Screenshot 2025-11-09 122857" src="https://github.com/user-attachments/assets/50e5fde2-d79f-40a0-bd7d-b43c6b0568ac" />
-
+<img width="1920" height="1080" alt="Screenshot 2025-11-09 135228" src="https://github.com/user-attachments/assets/9e491528-2869-43a3-9071-e651df41f1c4" />
 
 ### 📊 Output
 
-(<img width="1920" height="1080" alt="Screenshot 2025-11-09 123002" src="https://github.com/user-attachments/assets/f19353c7-14fb-4ce3-9616-e5cd918bad71" />
-)
+<img width="1920" height="1080" alt="Screenshot 2025-11-09 135256" src="https://github.com/user-attachments/assets/87fcff46-334a-454d-a050-2d4fb34480c9" />
+
 
 ---
 
