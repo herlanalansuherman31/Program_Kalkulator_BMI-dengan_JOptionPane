@@ -7,10 +7,10 @@ public class KalkulatorBMI {
 	public static void main(String[] args) {
 		String inputBB = JOptionPane.showInputDialog("masukan berat badan(kg):");
 		String inputTB = JOptionPane.showInputDialog("masukan tinggi badan(cm):");
-		double bb = Double.parseDouble(inputBB);
-		double TB = Double.parseDouble(inputTB);
+		double bb = Double.parseDouble(inputBB); //mengkonversi string ke double
+		double TB = Double.parseDouble(inputTB); //mengkonversi string ke double
 		double konversi = TB / 100; //mengkonversi tinggi badan cm ke m
-		double BMI = bb / (konversi * konversi);
+		double BMI = bb / (konversi * konversi); //menggunakan ekspresi aritmatika
 		//menggunakan if else agar hasil bmi sesuai degan kriteria
 		String kategori; if (BMI < 18.5 ) { 
 			kategori = "kurus";
@@ -18,7 +18,7 @@ public class KalkulatorBMI {
 			kategori = "normal";
 		}else if (BMI < 29.9) {
 			kategori = "gemuk";
-		}else if (BMI > 30.0){
+		}else if (BMI >= 29.9){
 			kategori = "obesitas";
 		}else {
 			kategori = "tidak normal"; //jika hasil <18,5 
