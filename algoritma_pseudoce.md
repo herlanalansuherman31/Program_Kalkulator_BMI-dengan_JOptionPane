@@ -27,7 +27,7 @@ BEGIN
     SEBALIKNYA JIKA (BMI > 30.0) 
         kategori = "obesitas"
     SELAIN ITU
-        kategori = "Tidak Diketahui/Tidak Normal
+        kategori = "Tidak Normal"
         
     hasil = "Berat Badan: " + bb + "kg" + "Tinggi Badan: " + TB + "cm" + "Nilai BMI: " + BMI + "Kategori: " + kategori
             
