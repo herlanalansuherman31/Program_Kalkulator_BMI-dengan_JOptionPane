@@ -6,11 +6,12 @@ algoritma kalkulator bmi
 **var** inputBB, inputTB, kategori, hasil = string
 ## algoritma:
 BEGIN
+
     TAMPILKAN_PROMPT("Masukkan berat badan (kg):")
-    READ inputBB 
+    READ (inputBB)
     
     TAMPILKAN_PROMPT("Masukkan tinggi badan (cm):")
-    READ inputTB 
+    READ (inputTB)
     bb = konversudouble(inputBB)
     TB = konvesrsidouble(inputTB)
     konversi = TB / 100 // konversi dari cm ke meter
