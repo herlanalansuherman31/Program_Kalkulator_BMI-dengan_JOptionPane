@@ -8,10 +8,15 @@ algoritma kalkulator bmi
 BEGIN
     TAMPILKAN_PROMPT("Masukkan berat badan (kg):")
     READ inputBB 
+    
     TAMPILKAN_PROMPT("Masukkan tinggi badan (cm):")
     READ inputTB 
+    bb = konversudouble(inputBB)
+    TB = konvesrsidouble(inputTB)
     konversi = TB / 100 // konversi dari cm ke meter
+    
     BMI = bb / (konversi * konversi)
+    
     JIKA (BMI < 18.5) MAKA
         kategori = "kurus"
     SEBALIKNYA JIKA (BMI < 24.9) MAKA
@@ -22,10 +27,12 @@ BEGIN
         kategori = "obesitas"
     SELAIN ITU
         kategori = "Tidak Diketahui/Tidak Normal
+        
     hasil = "Berat Badan: " + bb + "kg" + BARIS_BARU + 
             "Tinggi Badan: " + TB + "cm" + BARIS_BARU + 
             "Nilai BMI: " + BMI + BARIS_BARU + 
             "Kategori: " + kategori
+            
     WRITE("Hasil Perhitungan BMI Anda:", hasil)
 
 END
