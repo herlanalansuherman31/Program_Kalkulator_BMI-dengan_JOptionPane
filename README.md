@@ -55,9 +55,10 @@ public class KalkulatorBMI {
 
 ## 🔍 Hasil Uji Coba
 
-### 💡 Input
+###  🔢 input
 
-![Input Dialog]()
+<img width="1920" height="1080" alt="Screenshot 2025-11-09 122857" src="https://github.com/user-attachments/assets/50e5fde2-d79f-40a0-bd7d-b43c6b0568ac" />
+
 
 ### 📊 Output
 
